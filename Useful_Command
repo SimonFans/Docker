@@ -1,0 +1,6 @@
+
+# How to build a docker image
+# -t => tag name
+
+docker build -t airflow-basic .
+- Build a docker image from the Dockerfile in the current directory (airflow-materials/airflow-basic) and name it airflow-basic
