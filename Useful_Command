@@ -17,3 +17,7 @@ docker exec -it <container_id above> /bin/bash
 
 airflow@f429941809b2:~$ pwd
 /usr/local/airflow
+
+#4 check container log
+
+docker logs <container ID>
